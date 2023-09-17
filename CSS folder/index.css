@@ -1,0 +1,326 @@
+/* Reset some default styles */
+body, h1, h2, h3, p, ul, li, img {
+    max-width: auto;
+    margin: 0;
+    padding: 0;
+    border: 0;
+}
+
+/* Page Body */
+body {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    background-color: #f5f5f5;
+    color: #333;
+}
+
+/* Navigation Bar */
+header {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    background-color: #B38D97;
+    color: #fff;
+    text-align: center;
+    padding: 1rem 0;
+}
+
+.header a:hover{
+    color: #424B54;
+}
+
+/* Navigation Bar Flexbox */
+.navigation {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0.2rem;
+}
+
+/* Navigation Bar Item Align */
+.navigation ul {
+    list-style: none;
+    display: flex;
+    align-items: center;
+}
+
+/* Navigation Bar Item Spacing */
+.navigation li {
+    margin-right: 20px;
+}
+
+.navigation a {
+    text-decoration: none;
+    color: #fff;
+    font-weight: bold;
+    transition: color 0.3s;
+}
+
+/* Navigation Bar Hover */
+.navigation a:hover {
+    color: #ff6b6b;
+}
+
+/* Button for Dropdown Menu: Register */
+.dropdown {
+    position: relative;
+    display: inline-block;
+}
+.dropdown-content {
+    width: 50px;
+    height: auto;
+    position: absolute;
+    display: none;
+    align-items:flex-start;
+    margin-top: 5px;
+    margin-right: -52px;
+    padding: 5px;
+    background-color: #424B54;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+}
+
+/* Dropdown Box Hover */
+.dropdown:hover .dropdown-content {
+    display: block;
+    right: 0;
+    min-width: 200px;
+}
+
+/* Visionary Logo */
+.visionarylogo img{
+    border-radius: 5px;
+    margin-top: 5px;
+    margin-left: 20px;
+}
+
+main {
+    padding: 0;
+    border: 0;
+    max-width: auto;
+    margin: 2rem auto;
+    padding: 0 2rem;
+}
+
+/* Container for index-Image1 and Textbox */
+.container{
+    position: relative;
+    max-width: fit-content;
+    height: auto;
+    padding: 0.2rem;
+}
+/* Image box with container */
+.image-box img {
+    display: block;
+    max-width: 1280px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 1500px;
+    height: auto;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    border-radius: 5px;
+    opacity: 0.6;
+    overflow: hidden;
+}
+/* Textbox: text, text2 and text3 */
+.bigtextbox{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 1500px;
+    min-width: 50%;
+    min-height: 50%;  
+    max-width: 100%;
+    max-height: 100vh;
+    height: auto;
+    overflow: hidden;
+}
+/* Textbox on index-Image1: 'Feeling Inspired?' etc. */
+.index-Image1-text{
+    position: absolute;
+    margin-right: 0.2em;
+    margin-bottom: 150px;
+    top: 6em;
+    left: 1em;
+    font-size: 5vh;
+    margin-left: 10%;
+}
+.index-Image1-text2{
+    position: absolute;
+    margin-right: 10%;
+    margin-bottom: 150px;
+    top: 23em;
+    left: 40px;
+    font-size: 1.8vh;
+    margin-left: 10%;
+    border-style: solid;
+    padding: 10px;
+    border-radius: 5px;
+    border-width: 1px;
+}
+.index-Image1-text3{
+    position: absolute;
+    top: 21em;
+    left: 40px;
+    font-size: 20px;
+    margin-top: 80px;
+    margin-bottom: 150px;
+    margin-left: 10%;
+}
+
+/* Textbox Default Format */
+/* Textbox 1 */
+.text-box {
+    background-color: #fff;
+    padding: 2rem;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    margin-bottom: 10px;
+}
+.text-box h2 {
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+.text-box p {
+    font-size: 16px;
+    color: #666;
+}
+
+/* Textbox 2: 'What is Visionary*/
+.text-box2 {
+    background-color: #fff;
+    padding: 2rem;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    margin-bottom: 10px;
+}
+.text-box2 h2 {
+    font-size: 24px;
+    margin-bottom: 10px;
+    text-align: center;
+}
+.text-box2 p {
+    font-size: 16px;
+    color: #666;
+}
+
+/* 'Box with: 'Our Animations' */
+.image-box2{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 1500px;
+    min-width: 50%;
+    min-height: 50%;  
+    max-width: 100%;
+    max-height: 100vh;
+    height: auto;
+}
+/* Image box 2 Images*/
+.image-box2 img {
+    min-width: 200px;
+    min-height: 200px;
+    margin-right: 0;
+    margin-left: 30px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    border-radius: 5px;
+    opacity: 0.6;
+}
+/* Image 2 texts: 'Movies, Cartoons, Animes' etc. */
+.index-Image2-text1{
+    position: absolute;
+    top: 2.5em;
+    left: 3em;
+    font-size: 20px;
+    margin: 120px;
+}
+/* 'Movies hover'*/
+.index-Image2-text1:hover{
+    color: #ff6b6b;
+}
+/* 'Cartoons'*/
+.index-Image2-text2{
+    position: absolute;
+    top: 2.5em;
+    left: 22.3em;
+    font-size: 20px;
+    margin: 120px;
+}
+/* 'Cartoons hover' */
+.index-Image2-text2:hover{
+    color: #ff6b6b;
+}
+/* 'Animes' */
+.index-Image2-text3{
+    position: absolute;
+    top: 2.5em;
+    left: 42.5em;
+    font-size: 20px;
+    margin: 120px;
+}
+/* 'Animes hover' */
+.index-Image2-text3:hover{
+    color: #ff6b6b;
+}
+/* 'Shows'*/
+.index-Image2-text4{
+    position: absolute;
+    top: 27em;
+    left: 9em;
+    font-size: 20px;
+}
+/* 'Shows hover' */
+.index-Image2-text4:hover{
+    color: #ff6b6b;
+}
+/* 'Trailers' */
+.index-Image2-text5{
+    position: absolute;
+    top: 27em;
+    left: 28.5em;
+    font-size: 20px;
+}
+/* 'Trailers hover' */
+.index-Image2-text5:hover{
+    color: #ff6b6b;
+}
+/* 'Advertisements' */
+.index-Image2-text6{
+    position: absolute;
+    top: 27em;
+    left: 46.5em;
+    font-size: 20px;
+}
+/* 'Advertisements hover' */
+.index-Image2-text6:hover{
+    color: #ff6b6b;
+}
+
+
+footer {
+    text-align: center;
+    padding: 1rem;
+    background-color: #333;
+    color: #fff;
+}
+/* Under Logo: 'Made for those...'etc. */
+.footertextbox{
+    margin-left: 140px;
+    text-align: left;
+}
+/* Footer Columns:Products, Contact Us */
+.column {
+    float: left;
+    width: 33%;
+  }
+/* Clear floats after the columns */
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+  
+

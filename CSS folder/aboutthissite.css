@@ -1,0 +1,240 @@
+/* Reset some default styles */
+body, h1, h2, h3, p, ul, li, img {
+    max-width: auto;
+    margin: 0;
+    padding: 0;
+    border: 0;
+}
+
+/* Page Body */
+body {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    background-color: #f5f5f5;
+    color: #333;
+}
+
+/* Navigation Bar */
+header {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    background-color: #B38D97;
+    color: #fff;
+    text-align: center;
+    padding: 1rem 0;
+}
+
+.header a:hover{
+    color: #424B54;
+}
+
+/* Navigation Bar Flexbox */
+.navigation {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0.2rem;
+}
+
+/* Navigation Bar Item Align */
+.navigation ul {
+    list-style: none;
+    display: flex;
+    align-items: center;
+}
+
+/* Navigation Bar Item Spacing */
+.navigation li {
+    margin-right: 20px;
+}
+
+.navigation a {
+    text-decoration: none;
+    color: #fff;
+    font-weight: bold;
+    transition: color 0.3s;
+}
+
+/* Navigation Bar Hover */
+.navigation a:hover {
+    color: #ff6b6b;
+}
+
+/* Button for Dropdown Menu: Register */
+.dropdown {
+    position: relative;
+    display: inline-block;
+}
+.dropdown-content {
+    width: 50px;
+    height: auto;
+    position: absolute;
+    display: none;
+    align-items:flex-start;
+    margin-top: 5px;
+    margin-right: -52px;
+    padding: 5px;
+    background-color: #424B54;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+}
+
+/* Dropdown Box Hover */
+.dropdown:hover .dropdown-content {
+    display: block;
+    right: 0;
+    min-width: 200px;
+}
+
+/* Visionary Logo */
+.visionarylogo img{
+    border-radius: 5px;
+    margin-top: 5px;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+main {
+    padding: 0;
+    border: 0;
+    max-width: auto;
+    margin: 2rem auto;
+    padding: 0 2rem;
+}
+
+/* 1. Tell me about the site in general. */
+/* 2. Document the things about your site that deserve bonus marks */
+/* 3. Document any code that you have directly copied from another site.*/
+/* 4. List of images and their sources that are used on the site.  */
+/* 5. Wireframe Diagrams */
+
+/* Headings */
+.general{
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 10px;
+}
+/* Paragraphs */
+.generaldescription{
+    position: relative;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 50px;
+}
+.dotpoints{
+    margin-left: 40px;
+}
+/* Quoted html and css */
+.inactivecode{
+    position: relative;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 50px;
+    width: 1500px;
+    border-style: solid;
+    border-width: 1px;
+}
+
+/* Column Format for Images Biblio */
+.column1 {
+    float: left;
+    width: 200px;
+    padding: 10px;
+}
+.row:after {
+    width: 500px;
+    content: "";
+    display: table;
+    clear: both;
+}
+
+/* Images */
+.biblio-Image1 img{
+    width: 200px;
+    height: 120px;
+    margin-right: 20px;
+}
+.biblio-Image2 img{
+    width: 170px;
+    margin-right: 20px;
+}
+.biblio-Image3 img{
+    width: 200px;
+    margin-right: 20px;
+}
+.biblio-Image4 img{
+    width: 200px;
+    margin-right: 20px;
+}
+.biblio-Image4 img{
+    width: 200px;
+    margin-right: 20px;
+}
+.biblio-Image5 img{
+    width: 200px;
+    margin-right: 20px;
+}
+.biblio-Image6 img{
+    width: 200px;
+    margin-right: 20px;
+}
+.biblio-Image7 img{
+    width: 200px;
+    margin-right: 20px;
+}
+.biblio-Image8 img{
+    width: 200px;
+    margin-right: 20px;
+}
+.biblio-Image9 img{
+    width: 200px;
+    margin-right: 20px;
+}
+.biblio-Image10 img{
+    width: 200px;
+    margin-right: 20px;
+}
+
+/* BOX: Wireframe Diagrams */
+.wf-imagebox{
+    position: relative;
+    justify-content: c;
+    align-items: center;
+    display: flex;
+    flex-direction: row;
+}
+.wf-imagebox img{
+    width: 250px;
+    margin: 10px;
+}
+
+footer {
+    text-align: center;
+    padding: 1rem;
+    background-color: #333;
+    color: #fff;
+}
+/* Under Logo: 'Made for those...'etc. */
+.footertextbox{
+    margin-left: 140px;
+    text-align: left;
+}
+/* Footer Columns:Products, Contact Us */
+.column {
+    float: left;
+    width: 33%;
+  }
+/* Clear floats after the columns */
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+  
+

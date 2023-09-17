@@ -1,0 +1,219 @@
+/* Reset some default styles */
+body, h1, h2, h3, p, ul, li, img {
+    max-width: auto;
+    margin: 0;
+    padding: 0;
+    border: 0;
+}
+
+/* Page Body */
+body {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    background-color: #f5f5f5;
+    color: #333;
+}
+
+/* Navigation Bar */
+header {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    background-color: #B38D97;
+    color: #fff;
+    text-align: center;
+    padding: 1rem 0;
+}
+
+.header a:hover{
+    color: #424B54;
+}
+
+/* Navigation Bar Flexbox */
+.navigation {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0.2rem;
+}
+
+/* Navigation Bar Item Align */
+.navigation ul {
+    list-style: none;
+    display: flex;
+    align-items: center;
+}
+
+/* Navigation Bar Item Spacing */
+.navigation li {
+    margin-right: 20px;
+}
+
+.navigation a {
+    text-decoration: none;
+    color: #fff;
+    font-weight: bold;
+    transition: color 0.3s;
+}
+
+/* Navigation Bar Hover */
+.navigation a:hover {
+    color: #ff6b6b;
+}
+
+/* Button for Dropdown Menu: Register */
+.dropdown {
+    position: relative;
+    display: inline-block;
+}
+.dropdown-content {
+    width: 50px;
+    height: auto;
+    position: absolute;
+    display: none;
+    align-items:flex-start;
+    margin-top: 5px;
+    margin-right: -52px;
+    padding: 5px;
+    background-color: #424B54;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+}
+
+/* Dropdown Box Hover */
+.dropdown:hover .dropdown-content {
+    display: block;
+    right: 0;
+    min-width: 200px;
+}
+
+/* Visionary Logo */
+.visionarylogo img{
+    border-radius: 5px;
+    margin-top: 5px;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+.visionarylogologin{
+    justify-content: center;
+    align-items: center;
+    display: flex;
+}
+.visionarylogologin img{
+    width: 280px;
+    height: 180px;
+    position: relative;
+    z-index: -1;
+    justify-content: center;
+    margin: 100px;
+    margin-bottom: 10px;
+    border-radius: 20px;
+    border-color: #5c5c5c;
+    border-style: solid;
+    border-width: 1px;
+}
+.visionarylogologin img:hover{
+    border-width: 2px;
+}
+
+/* 'Made for those who...' */
+.textunderlogo{
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 50px;   
+}
+
+/* Interactive imput boxes for sign in */
+.imputbox{
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 10px;
+    margin-top: 20px;
+}
+.forgotpassword{
+    color: rgb(98, 98, 176);
+    margin-top: -20px;
+    margin-bottom: 20px;
+}
+.forgotpassword:hover{
+    text-decoration: underline;
+}
+
+/* Sign in Button */
+.signin{
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 20px;
+    border-radius: 20px;
+    background-color: rgb(98, 98, 176);
+    color: white;
+    padding: 8px;
+    margin-bottom: 20px;
+}
+.signin:hover{
+    font-size: 21.5px;
+}
+
+/* 'Haven't got an account?' */
+.noaccount{
+    color: rgb(49, 49, 49);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* Sign Up Button */
+.signup{
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 20px;
+    border-radius: 20px;
+    background-color: rgb(255, 255, 255);
+    color: black;
+    padding: 8px;
+    border-style: solid;
+    border-width: 1px;
+    margin-bottom: 150px;
+}
+.signup:hover{
+    font-size: 21.5px;
+    color: white;
+    background-color: #424B54;
+}
+
+footer {
+    text-align: center;
+    padding: 1rem;
+    background-color: #333;
+    color: #fff;
+}
+/* Under Logo: 'Made for those...'etc. */
+.footertextbox{
+    margin-left: 140px;
+    text-align: left;
+}
+/* Footer Columns:Products, Contact Us */
+.column {
+    float: left;
+    width: 33%;
+  }
+/* Clear floats after the columns */
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+  
+
